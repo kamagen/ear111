@@ -1,13 +1,13 @@
 {
-  "name": "Heroku_v2ray",
-  "description": "DaoChen's v2",
+  "name": "ioo",
+  "description": "jhh",
   "keywords": [
     ""
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
-      "value": "vmess",
+      "description": "vless",
+      "value": "vless",
       "required": true
     },
     "UUID": {
@@ -17,7 +17,7 @@
     },
     "WS_PATH": {
       "description": "websocket路径",
-      "value": "/ray",
+      "value": "/app",
       "required": true
     }
   },
